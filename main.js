@@ -12,7 +12,7 @@ for (let i = 0; i < 6; i++) {
 }
 
 function setup() {
-  createCanvas(width, height);
+  let canvas = createCanvas(width, height);
   background(0);
   for (let x = 0; x < width; x++) {
     for (let y = 0; y < height; y++) {
